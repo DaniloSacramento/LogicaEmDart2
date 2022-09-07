@@ -38,5 +38,5 @@ while(condicao){
     print("o tempo não está frio");
    
 }
-
+}
 }
