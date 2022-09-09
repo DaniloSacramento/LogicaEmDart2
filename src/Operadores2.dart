@@ -12,5 +12,5 @@ main(){
   print(3<2);
   print(3<=2);
   print(3!=2);
-  print(2 + 8 > 10 - 1);
+  print(2 + 8 > 10 - 1); 
 }

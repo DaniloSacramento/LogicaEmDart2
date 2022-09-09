@@ -25,15 +25,15 @@ main() {
   print(telefone["Danilo"]);
   print(telefone.length);
   print(telefone.keys);
-  print(telefone.values); 
+  print(telefone.values);
 
   // SET
 
-  Set times = {"nautico", "csa", "ceara","Santos"};
+  Set times = {"nautico", "csa", "ceara", "Santos"};
   print(times.add("SportNanico"));
   print(times);
   print(times.last);
   print(times.first);
- aprovados.add("Danilo");
+  aprovados.add("Danilo");
   print(aprovados.length);
 }
