@@ -14,4 +14,5 @@ main(){
 
   };
   print(salario);
+  
 }
