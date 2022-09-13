@@ -33,6 +33,8 @@ main() {
       print("o tempo está frio");
     } else if (tempo == "não") {
       print("o tempo não está frio");
+    }else{
+      print("Você digitou um valor invalido");
     }
   }
 }
