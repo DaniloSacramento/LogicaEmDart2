@@ -5,7 +5,7 @@ main(){
  print(n1);
  int n2 = numeroAleatorio();
  print(n2);
- imprimirData(10, 12, 2020);
+ imprimirData(10, 12, 2020); // parametro posicional 
 }
 
 int numeroAleatorio([int maximo = 11]){ // esta falando nessa parte do codigo que o parametro vai ser opcional por causa do [] e o maximo quando nao informa vai ser ate 11
