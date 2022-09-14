@@ -7,7 +7,7 @@ main(){
 
   Map<String, double> salario = {
     "gerente": 10000,
-    "vendedor": 9000,
+    "vendedor": 9000, 
     "estagiario": 760
     
 
