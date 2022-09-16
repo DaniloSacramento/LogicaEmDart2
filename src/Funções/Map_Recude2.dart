@@ -4,8 +4,12 @@ main(){
   var total = notas.reduce(somar);
   print(total);
   
-  List<String> nomes = ["Danilo", "Bia", "Carol"]; 
-  print(nomes);
+  List<String> nomes = ["Danilo", "Bia" , "Carol"]; 
+  print(nomes.reduce(juntar));
+
+  List<int> value = [8,9,6,2,4];
+  var valorTotal = value.reduce(valores);
+  print(valorTotal);
  
 }
 
@@ -15,5 +19,11 @@ double somar(double acumulador, double elemento){
 }
 
 String juntar(String acumulador, String elemento){
-  return "$acumulador,$elemento";
+  print("$acumulador => $elemento");
+  return "$acumulador, $elemento";
+}
+
+int valores(int a, int e){
+  print("$a + $e");
+  return a + e;
 }
