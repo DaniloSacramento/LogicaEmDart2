@@ -3,18 +3,21 @@ class Data {
    int ? mes;
    int ? ano;
 
+   
+   Data([this.dia = 1, this.mes = 1, this.ano = 1970]);
+
   String obter(){   // CRIAMOS UM METODO = FUNÇÃO 
     return("$dia/$mes/$ano");
    }
 
 }
 main(){
-  Data dataAnivesario = new Data();
+  Data dataAnivesario = new Data(16, 01, 2002);
   dataAnivesario.dia = 16;
   dataAnivesario.mes = 01;
   dataAnivesario.ano = 2002;
 
-  Data dataCompra = Data();
+  Data dataCompra = Data(11,11,2022);
   dataCompra.dia = 11;
   dataCompra.mes = 11;
   dataCompra.ano = 2022;
@@ -24,6 +27,7 @@ main(){
 
   print("A data do aniversário é $d1");
   print("A data do aniversário é $d2");
-
+ 
   print(dataCompra);
+  print(new  Data());
 }
